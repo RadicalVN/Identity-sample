@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Tuantv37\\IdentitySample\\IdentitySample.csproj": {}
+    "D:\\Tuantv37\\Identity-sample\\IdentitySample.csproj": {}
   },
   "projects": {
-    "D:\\Tuantv37\\IdentitySample\\IdentitySample.csproj": {
+    "D:\\Tuantv37\\Identity-sample\\IdentitySample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tuantv37\\IdentitySample\\IdentitySample.csproj",
+        "projectUniqueName": "D:\\Tuantv37\\Identity-sample\\IdentitySample.csproj",
         "projectName": "IdentitySample",
-        "projectPath": "D:\\Tuantv37\\IdentitySample\\IdentitySample.csproj",
+        "projectPath": "D:\\Tuantv37\\Identity-sample\\IdentitySample.csproj",
         "packagesPath": "C:\\Users\\root\\.nuget\\packages\\",
-        "outputPath": "D:\\Tuantv37\\IdentitySample\\obj\\",
+        "outputPath": "D:\\Tuantv37\\Identity-sample\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\root\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,28 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
